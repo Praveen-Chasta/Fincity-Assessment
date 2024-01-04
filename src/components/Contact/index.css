@@ -1,0 +1,40 @@
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.contact-img {
+  width: 50px;
+  height: 42px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    height: auto;
+  }
+
+  .contact-img {
+    width: 40px;
+    height: 34px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-img {
+    width: 30px;
+    height: 25px;
+  }
+  .info-para {
+    font-size: auto;
+  }
+}

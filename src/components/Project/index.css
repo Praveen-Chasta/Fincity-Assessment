@@ -1,0 +1,92 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: rgb(232, 242, 246);
+  margin-top: 10px;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.label-1 {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.label-2 {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.label-3 {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#projectName {
+  height: 28px;
+}
+
+#projectLink {
+  height: 28px;
+}
+
+.add-button {
+  margin-top: 20px;
+  margin-left: 22vw;
+  padding: 6px;
+  background-color: orange;
+  border: none;
+  width: 60px;
+  cursor: pointer;
+}
+
+.project-ul-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-heading {
+  color: #000000;
+}
+
+.p-heading {
+  margin-bottom: 2vh;
+}
+
+.hr-line {
+  border-color: #fdc435 !important;
+  background-color: #fdc435;
+  width: 6vw;
+  margin-top: 0px;
+  height: 4px;
+  border: none;
+  margin-bottom: 10vh;
+}
+
+@media screen and (max-width: 776px) {
+  .add-button {
+    width: 80%;
+  }
+
+  .hr-line {
+    width: 80%;
+  }
+
+  #projectName,
+  #projectLink {
+    width: 30vw;
+  }
+}
